@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+
+<!--Start content-->
+
+<section>
+    <h1 class="display-1 text-primary  text-center">WELCOME</h1>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+    <div class="card-group">
+        <div class="card">
+          <img class="card-img-top" src="{%static 'img/destination-2.jpg' %}" alt="Card image cap">
+          <script src="{%static 'lib/easing/easing.min.js' %}"></script>
+          <div class="card-body">
+            <h5 class="card-title text-center">Ksdafsdaf</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="{%static 'img/destination-1.jpg' %}" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title text-center">Frgrgtr</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="{%static 'img/destination-3.jpg' %}" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title text-center">Dghfgh</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+      </div>
+</section>
+
+<!--End content-->
+
+{% endblock %}
