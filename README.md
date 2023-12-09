@@ -264,7 +264,43 @@ http://localhost:8000/stock/crear_producto
 ```
 Ruta:
 
+http://localhost:8000/stock/crear_insumo
+
+```
+
+### Como ingresar al proyecto
+
+##### Página principal o home
+
+![Ingreso home](imagesReadme/pag_principal.gif)
+```
+Ruta:
+
+http://localhost:8000
+
+```
+
+##### Página crear producto
+
+![Ingreso a Craer Producto](imagesReadme/crear_producto.gif)
+```
+Ruta:
+
 http://localhost:8000/stock/crear_producto
 
 ```
+
+##### Página crear insumo
+
+![Ingreso a Craer Insumo](imagesReadme/crear_insumo.gif)
+```
+Ruta:
+
+http://localhost:8000/stock/crear_insumo
+
+```
+
+##### Verificación Base de Datos SQLite
+
+![Ingreso a Craer Producto](imagesReadme/baseDatos.gif)
 
