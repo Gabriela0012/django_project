@@ -252,9 +252,19 @@ Para utilizar herencia de contenido en el archiv base.html entre el navbar y foo
 
 ### Ingreso a crear_producto
 
-![Ingreso a Craer Producto](/imagesReadme/form.png)
+![Ingreso a Craer Producto](imagesReadme/form.png)
 ```
 Ruta:
 
 http://localhost:8000/stock/crear_producto
 ```
+
+### Ingreso a crear_insumo
+![Ingreso a Craer Producto](imagesReadme/crear_insumo.png)
+```
+Ruta:
+
+http://localhost:8000/stock/crear_producto
+
+```
+
